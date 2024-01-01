@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+nav{
+    margin:auto;
+    width: 1200px;
+    background-color:#FAF0F0;
+    height: 100px;
+
+
+
+}    
+div .row{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    
+}
+nav ul li {
+    display: inline-block;
+    padding: o 20px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+li button{
+    background-color: red;
+    padding: 10px ;
+    border-radius: 10px;
+    color: white;
+    font-size: 19px;
+    
+
+}
+nav ul li:hover{
+    color: red;
+
+}
+
+
